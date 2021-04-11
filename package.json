@@ -1,0 +1,21 @@
+{
+  "name": "mars-report-api-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:1234"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "then-sleep": "^1.0.1",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "micro": "^9.3.4"
+  }
+}
